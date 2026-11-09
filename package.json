@@ -1,0 +1,37 @@
+{
+  "name": "discord-ai-community-moderator",
+  "version": "1.0.0",
+  "description": "AI moderator for Discord communities: filters spam and scam links, answers new-member questions from a knowledge base, and flags toxic behaviour for human review.",
+  "type": "module",
+  "bin": {
+    "discord-mod": "bin/discord-mod.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node bin/discord-mod.js start",
+    "demo": "node bin/discord-mod.js demo",
+    "doctor": "node bin/discord-mod.js doctor",
+    "test": "node --test --test-reporter=spec \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "moderation",
+    "gemini",
+    "ai",
+    "spam-filter",
+    "toxicity",
+    "community",
+    "automod"
+  ],
+  "author": "plari6",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.6.1"
+  }
+}

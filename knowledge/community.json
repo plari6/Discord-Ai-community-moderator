@@ -1,0 +1,99 @@
+{
+  "server": {
+    "name": "Pixel Forge Community",
+    "description": "The official Discord for Pixel Forge, a co-op indie game builder. Players share builds, get help, report bugs and join weekly events.",
+    "website": "https://example.com",
+    "language": "en",
+    "moderators": "Members with the @Moderator role. Ping @Moderator only for urgent issues; for anything else open a ticket in #support-tickets.",
+    "contact": "You can also open a ticket in #support-tickets."
+  },
+  "rules": [
+    "Be respectful. No harassment, hate speech, slurs, threats or personal attacks.",
+    "No spam, self-promotion or server invites outside #self-promo.",
+    "No NSFW content anywhere.",
+    "No scams, fake giveaways or suspicious links. Staff will never DM you first asking for passwords or payment.",
+    "Keep discussions in the right channel.",
+    "English in the main channels; use #international for other languages.",
+    "Do not share personal information (yours or anyone else's).",
+    "Moderators have the final say. Appeals go to #support-tickets."
+  ],
+  "channels": {
+    "#announcements": "Official news, patch notes and event dates.",
+    "#rules": "Server rules - read them first.",
+    "#roles": "Pick your platform and notification roles with the reaction buttons.",
+    "#general": "General chat about the game.",
+    "#help": "Ask questions about the game; the bot and the community answer here.",
+    "#bug-reports": "Report bugs using the pinned template.",
+    "#showcase": "Share screenshots and builds.",
+    "#self-promo": "Share your streams, videos and servers (once per day).",
+    "#looking-for-group": "Find people to play with.",
+    "#support-tickets": "Private help from staff: account, purchases, appeals."
+  },
+  "faqs": [
+    {
+      "id": "get-roles",
+      "q": "How do I get roles / pick my platform?",
+      "a": "Go to #roles and click the buttons for your platform (PC, PlayStation, Xbox, Switch) and the pings you want. Roles appear instantly. The Verified role is added automatically 10 minutes after you join.",
+      "keywords": ["role", "roles", "platform", "verified", "color", "rank"]
+    },
+    {
+      "id": "cant-talk",
+      "q": "Why can't I send messages or see channels?",
+      "a": "New members can post 10 minutes after joining (anti-spam protection). Make sure you accepted the rules in #rules. If you still can't post after that, open a ticket in #support-tickets.",
+      "keywords": ["cant", "talk", "send", "message", "see", "channels", "locked", "muted", "verify"]
+    },
+    {
+      "id": "report-bug",
+      "q": "How do I report a bug?",
+      "a": "Post in #bug-reports using the pinned template: game version, platform, steps to reproduce, and a screenshot or video. Crash logs are in Documents/PixelForge/logs.",
+      "keywords": ["bug", "crash", "report", "glitch", "broken", "error", "logs"]
+    },
+    {
+      "id": "events",
+      "q": "When are the community events?",
+      "a": "Build Night runs every Friday at 19:00 UTC and the monthly Build Contest starts on the first Saturday of each month. Dates and prizes are posted in #announcements; pick the Events role in #roles to be pinged.",
+      "keywords": ["event", "events", "contest", "build night", "tournament", "friday", "prize"]
+    },
+    {
+      "id": "promo",
+      "q": "Can I post my YouTube channel, stream or server?",
+      "a": "Yes, in #self-promo only, once per day. Server invites and promo links are removed in every other channel.",
+      "keywords": ["promo", "promote", "youtube", "stream", "twitch", "invite", "advertise", "server", "channel"]
+    },
+    {
+      "id": "refund",
+      "q": "How do I get a refund or fix a purchase problem?",
+      "a": "Purchases are handled by the store you bought from (Steam, PlayStation Store, etc.). For in-game purchase problems open a ticket in #support-tickets with your order ID. Never share your password; staff will never ask for it.",
+      "keywords": ["refund", "purchase", "payment", "bought", "money", "order", "dlc"]
+    },
+    {
+      "id": "staff",
+      "q": "How do I contact a moderator or appeal a punishment?",
+      "a": "Open a ticket in #support-tickets. Explain what happened and include message links if you can. Appeals are reviewed within 48 hours.",
+      "keywords": ["moderator", "mod", "staff", "admin", "appeal", "ban", "timeout", "muted", "contact"]
+    },
+    {
+      "id": "nitro-scam",
+      "q": "I got a DM about free Nitro / a giveaway, is it real?",
+      "a": "No. It is a scam. Pixel Forge staff never DM first with giveaways, Nitro or links. Do not click it, do not log in, and report the user in #support-tickets so we can ban them.",
+      "keywords": ["nitro", "free", "giveaway", "dm", "scam", "hacked", "link", "steam", "gift"]
+    },
+    {
+      "id": "lfg",
+      "q": "How do I find people to play with?",
+      "a": "Use #looking-for-group: post your platform, region and what you want to play. You can also join the voice lobbies during Build Night on Fridays.",
+      "keywords": ["play", "group", "friends", "team", "lfg", "coop", "co-op", "partner", "squad"]
+    },
+    {
+      "id": "crossplay",
+      "q": "Does Pixel Forge have crossplay?",
+      "a": "Yes. PC, PlayStation and Xbox players can play together. Switch crossplay is planned for a later update. Enable it in Settings > Online > Crossplay.",
+      "keywords": ["crossplay", "cross-play", "cross platform", "playstation", "xbox", "switch", "pc", "together"]
+    }
+  ],
+  "welcome": {
+    "message": "Welcome to **{server}**, {user}! Read #rules, grab your roles in #roles, and ask anything in #help - I answer instantly.",
+    "dm": "Hi {name}, welcome to {server}! Quick start:\n1. Read the rules in #rules.\n2. Pick your roles in #roles.\n3. Ask questions in #help (or mention me).\nStaff will never DM you first with giveaways or links."
+  },
+  "self_harm_resources": "If you are going through a hard time, you are not alone. Please reach out to someone you trust or a local crisis line. International list: https://findahelpline.com. In the US you can call or text 988; in the UK call Samaritans on 116 123."
+}
